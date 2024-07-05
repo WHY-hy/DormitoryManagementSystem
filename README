@@ -1,0 +1,30 @@
+DormitoryManagementSystem_2
+介绍
+学生宿舍管理系统
+
+软件架构
+软件架构说明 1.依赖管理使用了maven管理，maven的版本是3.6.3，mysql的版本是8.0.16，JDK版本为1.8，bootstrap依赖包、Jquery.js其余jar包的版本见 pom.xml 文件；
+
+2.超级管理员具有最高权限，可以对所有的宿舍管理员、所有的宿舍楼和所有的学生进行增删改查；
+
+3.宿舍管理员具有本宿舍楼的高级权限，可以对本楼栋的所有学生进行增删改查；
+
+4.学生没有写数据库的权限，只有查看自己基本资料的权限；
+
+5.三个角色的通用权限为修改自己的密码和查看自己的信息；
+
+6.项目还使用了Filter和Listener，即完成登录过滤、字符过滤以及项目启动时加载数据库连接池；
+
+7.项目中的记住密码功能采用了Cookie技术，使得密码能被临时暂存一个星期；
+
+安装教程
+使用git克隆到本地，用idea打开配置环境就可以用了
+或者下载zip压缩包解压，再用idea打开配置环境就可以用了
+参与贡献
+特技
+使用 Readme_XXX.md 来支持不同的语言，例如 Readme_en.md, Readme_zh.md
+Gitee 官方博客 blog.gitee.com
+你可以 https://gitee.com/explore 这个地址来了解 Gitee 上的优秀开源项目
+GVP 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
+Gitee 官方提供的使用手册 https://gitee.com/help
+Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 https://gitee.com/gitee-stars/
