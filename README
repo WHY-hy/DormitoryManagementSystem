@@ -1,4 +1,4 @@
-DormitoryManagementSystem_2
+DormitoryManagementSystem
 介绍
 学生宿舍管理系统
 
@@ -20,11 +20,5 @@ DormitoryManagementSystem_2
 安装教程
 使用git克隆到本地，用idea打开配置环境就可以用了
 或者下载zip压缩包解压，再用idea打开配置环境就可以用了
-参与贡献
-特技
-使用 Readme_XXX.md 来支持不同的语言，例如 Readme_en.md, Readme_zh.md
-Gitee 官方博客 blog.gitee.com
-你可以 https://gitee.com/explore 这个地址来了解 Gitee 上的优秀开源项目
-GVP 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-Gitee 官方提供的使用手册 https://gitee.com/help
-Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 https://gitee.com/gitee-stars/
+
+最后就是若有需要数据库的数据结构和数据（即sql文件）的，请QQ联系：3110258319，并说明来意。
